@@ -1,5 +1,3 @@
-use std::usize;
-
 use itertools::Itertools;
 
 fn good(subset: &[usize], frbdn: &[usize]) -> bool {
