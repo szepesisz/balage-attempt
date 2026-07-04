@@ -1,7 +1,7 @@
 """
 Semmi extra, de most programoztam icipicit a kutatáshoz (sajnos nem lett belőle pozitív eredmény), s gondoltam elküldöm.
 Az a feladat, hogy A + 2A - 3A = 6 -nak van-e megoldása speckó halmazokra
-(ez azt jelenti, hogy a_1 + 2 * a_2 - 3 * a_3 , ahol a_1,a_2,a_3 \in A) bizonyos A halmazokra.
+(ez azt jelenti, hogy a_1 + 2 * a_2 - 3 * a_3 , ahol a_1,a_2,a_3 \\in A) bizonyos A halmazokra.
 Még annyi, hogy előzetes dolgok miatt nem lehet A-ban a,a+2 , a,a+3 , a,a+6. 
 
 És ezeket az A-kat nézi meg egészen szabadon módosíthatóan
