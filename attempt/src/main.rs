@@ -58,3 +58,24 @@ fn main() {
         });
     println!("{violating:?}")
 }
+
+#[cfg(test)]
+mod tests {
+    use super::good;
+
+    #[test]
+    fn test_good() {
+        let set = [1, 2, 3];
+        let frbdn = [2];
+        let r = good(&set, &frbdn);
+        assert!(r);
+    }
+
+    #[test]
+    fn test_not_good() {
+        let set = [1, 3, 4];
+        let frbdn = [2];
+        let r = good(&set, &frbdn);
+        assert!(!r);
+    }
+}
